@@ -1,5 +1,9 @@
 # Maelstorm
 [![QualityChecks](https://github.com/itsmelion/elements/actions/workflows/lint.yml/badge.svg)](https://github.com/itsmelion/elements/actions/workflows/lint.yml)
+
+Reading is nice.. but i have a intro video for you!<br/>
+[![](https://markdown-videos.vercel.app/youtube/ASOdQXbL62o)](https://youtu.be/ASOdQXbL62o)
+
 #### Goal:
 My focus on this test is to display the wider knowledge i have as a professional as i can in the time invested.
 I may briefly, but enoughly covered many subjects that i consider relevant for a JS professional.
@@ -7,6 +11,9 @@ Them being:
 - Clean and comprehensive code
 - good architecture, ability to think and organize massive projects.
 - capability to operate the libraries suggested by the company
+- And show resoursefulness and good comunication skills
+
+Read more about [Tasks performed and estimations](./TASKS.md)
 
 ## Installation and usage
 - `npm install`
@@ -47,6 +54,6 @@ I usually cluster functionality under its own folder, and it can scale infinitel
 | ErrorHandling | `react-native-error-boundary` and `react-native-exception-handler` | One offers DOM error placeholder to side with Suspense-mode in react, and the other catches global JS and Native throws.|
 | State and Network data | `react-query` and `redux` | I abandoned redux for almost 4 years now, and dont see usage for it here, but seems a plus for many reviewers, therefore im doing some basic operations with it here and there just because.|
 | Typescript and data validation | `zod` | Although i didnt used it at all, i would use Zod to declare more niche types (ex: UUID instead of string) and validate it. maybe in conjunction with stuff like `react-hook-form`|
-
+---
 #### Disclaimers
 - My windows enviromnent was very buggy and inconvenient dev experience, so sorry for any bloopers.

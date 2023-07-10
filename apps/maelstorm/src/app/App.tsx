@@ -11,7 +11,7 @@ import SplashScreen from "react-native-splash-screen";
 
 // Routes - Stacks
 import { ElementsStack } from './ElementsStack';
-import { WeatherStack } from './WeatherStack';
+// import { WeatherStack } from './WeatherStack';
 
 export const App = () => {
   setJSExceptionHandler(errorHandler);
@@ -30,8 +30,8 @@ export const App = () => {
       <ThemeProvider>
         <ServicesProvider>
           <Suspense fallback={<Activity title="Hold, we're checking the skies" />}>
-            <WeatherStack />
-            {/* <ElementsStack /> */}
+            {/* <WeatherStack /> */}
+            <ElementsStack />
           </Suspense>
         </ServicesProvider>
       </ThemeProvider>
